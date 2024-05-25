@@ -1,0 +1,286 @@
+<!-- HTML Structure -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoe Shop Blog Post</title>
+<style>
+    /* CSS Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:whitesmoke;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+
+nav {
+            background-color: #444;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            font-size: x-large;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        nav ul li a {
+            display: inline-block;
+            padding: 10px 20px;
+            color: #fff;
+            text-decoration: none;
+        }
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2em;
+}
+
+.hero {
+    background-image: url(summer1.jpg);
+    background-size:;
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f5eeee;
+}
+
+.hero h1 {
+    font-size: 46px;
+}
+
+.content {
+    padding: 2em;
+}
+
+.content h2 {
+    font-size: 44px;
+    margin-top: 20px;
+}
+.content p{
+    font-size: 40px;
+}
+
+.content img {
+    width: 100%;
+    height: 200px
+    object-fit: cover;
+    margin: 20px 0;
+}
+
+.related-content {
+    background-color: #f7f7f7;
+    padding: 2em;
+}
+
+.related-content h2, h3{
+    font-size: 24px;
+    margin-top: 20px;
+}
+h6{
+    font-size: 24px;
+    
+}
+
+.related-content ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 35px;
+
+}
+
+.related-content li {
+    margin-bottom: 10px;
+}
+
+.related-content a {
+    text-decoration: none;
+    color: #337ab7;
+}
+
+.related-content a:hover {
+    color: #23527c;
+}
+
+.call-to-action {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 2em;
+    text-align: center;
+}
+
+.call-to-action h2 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.call-to-action button {
+    background-color: #23527c;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.call-to-action button:hover {
+    background-color: #1d3c6a;
+}
+
+
+</style>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <h1>Metro Shoes</h1>
+        <div class="footer-section social">
+            
+            <div class="icon">
+                <i class="fab fa-facebook-f"></i></a>
+                <i class="fab fa-twitter"></i></a>
+                <i class="fab fa-instagram"></i></a>
+                <i class="fab fa-pinterest"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="service.html">Service</a></li>
+            <li><a href="login.html">log in</a></li>
+            <li><a href="blog.html">Blog/suggest</a></li>
+            <div class="search-container">
+                <input type="text" placeholder="Search...">
+                <button type="submit">Search</button>
+            </div>
+
+        </ul>
+    </nav>
+    <main>
+        <section class="hero">
+            <h1>Latest Shoe Trends</h1>
+            <p>Stay updated with the hottest shoe styles of the season.</p>
+        </section>
+        <section class="content">
+            <h2>Top Picks for Summer</h2>
+            <p>Discover the must-have shoes for your summer wardrobe.</p>
+            <img src="sum01.jpg" alt="Summer Shoes">
+            <h3>Comfort and Style</h3>
+            <p>Explore shoes that combine comfort and style for all-day wear.</p>
+            <ul>
+                <li>Slip-on Sneakers</li>
+                <li>Strappy Sandals</li>
+                <li>Canvas Espadrilles</li>
+            </ul>
+        </section>
+        <section class="content">
+            <h2>Top Picks for winter</h2>
+            <p>Discover the must-have shoes for your winter wardrobe.</p>
+            <img src="winter.jpg" alt="winter Shoes">
+            <h3>Comfort and Style</h3>
+            <p>Explore shoes that combine comfort and style for all-day wear.</p>
+            <p>Why are winter shoes important?</p>
+            
+                <h6>Why Proper Winter Footwear is Important - Caruso Foot & Ankle
+                They Keep Your Feet Warm
+                
+                Warmer feet open up the blood vessels and allow better blood flow, moving heat to every other part of the body to boost energy and protect your immune system. Wearing proper winter footwear, especially during outdoor winter activities, can help keep you healthy.</h6>
+            <ul>
+                <li>Comfort and Warmth: The most immediate benefit is the comfort and warmth these shoes provide. ...</li>
+                <li>Health Protection: Cold feet can lead to health issues such as frostbite and poor circulation. ...</li>
+                <li>Enhanced Mobility: With the right pair of shoes, you can move around freely and safely.</li>
+            </ul>
+        </section>
+        <section class="content">
+            <h2>Top Picks for monsoon</h2>
+            <p>Discover the must-have shoes for your monsoon wardrobe.</p>
+            <img src="monsoon.jpg" alt="Summer Shoes">
+            <h3>Comfort and Style</h3>
+            <p>Explore shoes that combine comfort and style for all-day wear.</p>
+            <ul>
+                <li>Rubber or Waterproof Shoes: Shoes made of rubber or other waterproof materials are ideal for the monsoon as they can keep your feet dry even in heavy rain. Rain boots or rubber sandals are good options.</li>
+                <li>Sandals with Straps: Sandals with secure straps are a good choice as they provide ventilation and are easy to dry in case they get wet. Look for sandals with good grip to prevent slipping on wet surfaces.</li>
+                <li>Quick-drying Shoes: Shoes made of materials that dry quickly, such as mesh or synthetic fabrics, can be convenient during the monsoon as they won't stay wet for long.</li>
+            </ul>
+        </section>
+        <section class="related-content">
+            <h2>Related Posts</h2>
+            <ul>
+                <li><a href="#">How to Choose the Right Running Shoes</a></li>
+                <li><a href="#">Fall Fashion Preview: Boot Trends</a></li>
+                <li><a href="#">Shoe Care Tips for Longevity</a></li>
+            </ul>
+        </section>
+        <section class="call-to-action">
+            <h2>Join Our Shoe Community</h2>
+            <p>Subscribe to our newsletter for exclusive updates and discounts.</p>
+            <button>Subscribe</button>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section about">
+                <h2>ShoeShop</h2>
+                <p>Your one-stop shop for the latest trends in footwear. We offer a wide range of shoes for every occasion, ensuring you step out in style.</p>
+            </div>
+            <div class="footer-section links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="img1.jfif">Shop</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="">FAQs</a></li>
+                    <li><a href="blog.html">Privacy Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h2>Contact Us</h2>
+                <p><i class="fas fa-map-marker-alt"></i> 123 Shirpur Lane, Fashion City, India</p>
+                <p><i class="fas fa-phone"></i> +1 234 567 890</p>
+                <p><i class="fas fa-envelope"></i> support@shoeshop.com</p>
+            </div>
+            <div class="footer-section social">
+                <h2>Follow Us</h2>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; 2024 ShoeShop. All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>
